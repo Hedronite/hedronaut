@@ -1,0 +1,15 @@
+[package]
+name = "hedronaut"
+version = "0.0.1"
+edition = "2021"
+license = "MIT"
+description = "Hedronaut — Hedronite platform umbrella (h3s, Facet, HedronDB, tetra-cli, Vertusees). Name reservation / meta crate."
+repository = "https://github.com/VirtualMachinist/hedronaut"
+homepage = "https://hedronite.com"
+readme = "README.md"
+keywords = ["hedronite", "kubernetes", "platform", "observability"]
+categories = ["development-tools"]
+authors = ["Hedronite <hello@hedronite.com>"]
+
+[lib]
+path = "src/lib.rs"
